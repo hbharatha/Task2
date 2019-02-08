@@ -4,19 +4,16 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-            dir
                 echo 'Building..'
             }
         }
         stage('Test') {
             steps {
-            dir
                 echo 'Testing..'
             }
         }
         stage('Deploy') {
             steps {
-            dir
                 echo 'Deploying....'
             }
         }
